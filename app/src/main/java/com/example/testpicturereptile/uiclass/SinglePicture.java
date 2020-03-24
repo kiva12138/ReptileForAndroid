@@ -1,19 +1,21 @@
 package com.example.testpicturereptile.uiclass;
 
+import android.graphics.Bitmap;
+
 public class SinglePicture {
     private String name;
-    private int imageId;
+    private Bitmap image;
 
-    public SinglePicture(String name, int imageId){
+    public SinglePicture(String name, Bitmap image){
         this.name = name;
-        this.imageId = imageId;
+        this.image = image;
     }
 
     public String getName() {
         return name;
     }
 
-    public int getImageId() {
-        return imageId;
+    public Bitmap getImage() {
+        return image;
     }
 }

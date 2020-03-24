@@ -1,5 +1,6 @@
 package com.example.testpicturereptile.uiclass;
 
+import android.graphics.drawable.BitmapDrawable;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -50,7 +51,7 @@ public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.ViewHolder> 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         SinglePicture singlePicture = pictureList.get(position);
-        holder.singleImageView.setImageResource(singlePicture.getImageId());
+        holder.singleImageView.setImageBitmap(singlePicture.getImage());
     }
 
     @Override

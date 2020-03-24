@@ -62,6 +62,15 @@ public class PictureDataDao {
     }
 
     public void clearCache() {
-
+        String fileContextPath = Environment.getExternalStorageDirectory().getPath() + StaticData.FILE_PATH + File.separator;
+        File fileContext = new File(fileContextPath);
+        if (!fileContext.exists()){
+            return;
+        }
+        File[] files = fileContext.listFiles();
+        for (int i = 0; i < files.length; i++) {
+            File f = files[i];
+            f.delete();
+        }
     }
 }
