@@ -1,12 +1,10 @@
-package com.example.testpicturereptile.data;
+package com.example.testpicturereptile.dataoperation;
 
 import android.content.Context;
-import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.graphics.drawable.Drawable;
-import android.util.Log;
 
 import com.example.testpicturereptile.R;
+import com.example.testpicturereptile.dao.PictureDataDao;
 
 public class PictureDataOperation {
     private Context context;

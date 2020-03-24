@@ -1,4 +1,4 @@
-package com.example.testpicturereptile;
+package com.example.testpicturereptile.uiclass;
 
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
@@ -7,6 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.Toast;
+
+import com.example.testpicturereptile.R;
 
 import java.util.List;
 

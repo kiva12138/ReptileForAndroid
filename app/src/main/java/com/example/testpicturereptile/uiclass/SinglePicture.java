@@ -1,4 +1,4 @@
-package com.example.testpicturereptile;
+package com.example.testpicturereptile.uiclass;
 
 public class SinglePicture {
     private String name;
