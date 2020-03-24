@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="main_back_color_red">#FADBD8</color>
+    <color name="main_back_color_blue">#AED6F1</color>
+    <color name="main_back_color_blue2">#3498DB</color>
+    <color name="main_back_color_red2">#F1948A</color>
+
+    <color name="nav_head_color_1">#303133</color>
+    <color name="nav_head_color_2">#FFFFFF</color>
+
+
+    <color name="search_back_color">#F2F6FC</color>
+
+
+</resources>

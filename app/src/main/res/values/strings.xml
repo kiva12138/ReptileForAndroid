@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">来看爽图呀</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_exit">退出</string>
+    <string name="nav_header_title">当前脚本：</string>
+    <string name="nav_header_subtitle">暂无脚本</string>
+    <string name="nav_change_script">修改当前脚本</string>
+    <string name="nav_clear_cache">清理缓存</string>
+
+
+    <string name="search_hint">你想康什么呢...</string>
+</resources>

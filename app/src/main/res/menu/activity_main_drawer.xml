@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group>
+        <item
+            android:id="@+id/nav_change"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/nav_change_script" />
+        <item
+            android:id="@+id/nav_clear_cache"
+            android:icon="@android:drawable/ic_menu_delete"
+            android:title="@string/nav_clear_cache" />
+    </group>
+
+    <item android:title="捐赠(制作不易,请多支持)">
+        <menu>
+            <item
+                android:id="@+id/nav_wechat"
+                android:icon="@mipmap/alipay"
+                android:title="微信" />
+            <item
+                android:id="@+id/nav_ali"
+                android:icon="@mipmap/wechat"
+                android:title="支付宝" />
+        </menu>
+    </item>
+
+</menu>
