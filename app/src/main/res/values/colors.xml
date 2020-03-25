@@ -12,6 +12,10 @@
     <color name="nav_head_color_1">#303133</color>
     <color name="nav_head_color_2">#FFFFFF</color>
 
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+
 
     <color name="search_back_color">#F2F6FC</color>
 

@@ -12,4 +12,13 @@
 
     <string name="search_hint">你想康什么呢...</string>
     <string name="clear_success">缓存清理完成</string>
+    <string name="sure_to_save_title">保存到系统相册</string>
+    <string name="sure_to_save">保存图片吗？</string>
+    <string name="success_save">图片已保存</string>
+    <string name="sorry_only1">目前仅支持美图录脚本，后续脚本持续开发中</string>
+
+    <string name="meitulu">美图录</string>
+
+    <string name="ok">是</string>
+    <string name="no">否</string>
 </resources>

@@ -19,6 +19,33 @@ public class PictureDataDao {
         if (!fileContext.exists()){
             fileContext.mkdirs();
         }
+
+        String systemPath = Environment.getExternalStorageDirectory().getPath() + StaticData.SYS_PATH;
+        File systemContext = new File(systemPath);
+        if (!systemContext.exists()){
+            systemContext.mkdirs();
+        }
+    }
+
+    public void saveToGallery(Bitmap bitmap, String name) {
+        String filePath = Environment.getExternalStorageDirectory().getPath()
+                + StaticData.SYS_PATH + File.separator
+                + name + "." + StaticData.JPEG_FILE_NAME;
+        File pictureFile = new File(filePath);
+        if (pictureFile.exists()){
+            pictureFile.delete();
+        }
+        try {
+            pictureFile.createNewFile();
+            FileOutputStream fileOutputStream = new FileOutputStream(pictureFile);
+            bitmap.compress(Bitmap.CompressFormat.JPEG, 100, fileOutputStream);
+            fileOutputStream.flush();
+            fileOutputStream.close();
+
+        } catch (IOException e) {
+            Log.i("IOError", "不能写入文件"+filePath);
+            e.printStackTrace();
+        }
     }
 
     public void savePicture(String scriptName, String searchContent, String number, Bitmap bitmap) {
